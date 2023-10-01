@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "dependencies": {
+    "@edenlabs/eden-sdk": "^0.1.1"
+  },
+  "name": "eden-sdk-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}
