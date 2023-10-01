@@ -1,22 +1,24 @@
 # eden-sdk-examples
 Examples on how to use the @edenlabs/eden-sdk js module
 
-1. Download or clone repository
+Download or clone repository
 
-2. Install dependencies
+Install dependencies
 ```
 cd eden-sdk-examples
 
 yarn install
 ```
 
-4. Configure API Key/Secret in `init_eden.js`
-```js
-const apiKey = 'YOUR_API_KEY_HERE'; // NEVER PUBLISH YOUR KEY!
-const apiSecret = 'YOUR_API_SECRET_HERE'; // NEVER PUBLISH YOUR SECRET!
+Configure API Key/Secret
+```
+# copy .env.example to .env
+cp .env.example .env 
+
+# open .env file and set your api/key secret 
 ```
 
-3. Run examples from project root
+Run examples from project root
 ```
 node examples/generators/create.js
 node examples/generators/list.js
