@@ -2,12 +2,14 @@
 # yarn lockfile v1
 
 
-"@edenlabs/eden-sdk@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@edenlabs/eden-sdk/-/eden-sdk-0.1.1.tgz#be92254d8a148795eb55f992f6a4d415ecb37ffb"
-  integrity sha512-eGHzHP/xf50M9nQ4UmjzgxjG6W8hemXyMIDq1PXudwJz0jLVBH4DzrbRk7Y4qFHvjcu4u2loS4qrCQ+bWzUBXw==
+"@edenlabs/eden-sdk@^0.3.2":
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/@edenlabs/eden-sdk/-/eden-sdk-0.3.2.tgz#4e2d9b093a5ea3f7c3dc57480d6a699eb15e76f5"
+  integrity sha512-dPRSb0a9EYzGR0pXlHV0ldkUuHLKcedTPRHNselFTiV10UWtYlB/5M8fhnmwCazgC3kZjBVSeiHsZT5f9SxUmw==
   dependencies:
     axios "^1.4.0"
+    event-source-polyfill "^1.0.31"
+    eventsource "^2.0.2"
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -39,6 +41,16 @@ dotenv@^16.3.1:
   version "16.3.1"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
   integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
+
+event-source-polyfill@^1.0.31:
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/event-source-polyfill/-/event-source-polyfill-1.0.31.tgz#45fb0a6fc1375b2ba597361ba4287ffec5bf2e0c"
+  integrity sha512-4IJSItgS/41IxN5UVAVuAyczwZF7ZIEsM1XAoUzIHA6A+xzusEZUutdXz2Nr+MQPLxfTiCvqE79/C8HT8fKFvA==
+
+eventsource@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/eventsource/-/eventsource-2.0.2.tgz#76dfcc02930fb2ff339520b6d290da573a9e8508"
+  integrity sha512-IzUmBGPR3+oUG9dUeXynyNmf91/3zUSJg1lCktzKw47OXuhco54U3r9B7O4XX+Rb1Itm9OZ2b0RkTs10bICOxA==
 
 follow-redirects@^1.15.0:
   version "1.15.3"

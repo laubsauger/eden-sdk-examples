@@ -1,7 +1,7 @@
 {
   "type": "module",
   "dependencies": {
-    "@edenlabs/eden-sdk": "^0.1.1",
+    "@edenlabs/eden-sdk": "^0.3.2",
     "dotenv": "^16.3.1"
   },
   "name": "eden-sdk-test",

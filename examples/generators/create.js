@@ -9,6 +9,6 @@ const input = {
   config
 }
 
-const result = await eden.tasks.create(input);
+const result = await eden.create(input);
 
 console.log(result)

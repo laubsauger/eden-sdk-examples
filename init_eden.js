@@ -1,7 +1,10 @@
 import { EdenClient } from "@edenlabs/eden-sdk";
+import dotenv from 'dotenv';
+dotenv.config();
 
-const apiKey = 'YOUR_API_KEY_HERE'; // NEVER PUBLISH YOUR KEY!
-const apiSecret = 'YOUR_API_SECRET_HERE'; // NEVER PUBLISH YOUR SECRET!
+// Now you can use the environment variables from your .env file
+const apiKey = process.env.EDEN_API_KEY;
+const apiSecret = process.env.EDEN_SECRET_KEY;
 
 const eden = new EdenClient({ apiKey, apiSecret });
 
