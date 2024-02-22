@@ -2,7 +2,8 @@
   "type": "module",
   "dependencies": {
     "@edenlabs/eden-sdk": "^0.3.2",
-    "dotenv": "^16.3.1"
+    "dotenv": "^16.3.1",
+    "node-fetch": "^3.3.2"
   },
   "name": "eden-sdk-test",
   "version": "1.0.0",
