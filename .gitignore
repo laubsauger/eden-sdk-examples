@@ -3,4 +3,13 @@ node_modules
 
 .env
 .DS_Store
-output/
+
+/scripts/input/*
+/scripts/input/**/*
+/scripts/output/*
+/scripts/output/**/*
+!/scripts/input/*.gitkeep
+!/scripts/input/**/*.gitkeep
+!/scripts/output/*.gitkeep
+!/scripts/output/**/*.gitkeep
+
