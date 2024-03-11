@@ -1,8 +1,8 @@
 export default {
-  // text_input: 'psychedelic yellow jaguar',
-  // lora: '=',
   width: 1024,
   height: 1024,
+  // text_input: 'psychedelic yellow jaguar',
+  // lora: '=',
   // lora_scale: 0.7,
   // controlnet_type: 'canny-edge',
   // control_image_strength: 0.6,
